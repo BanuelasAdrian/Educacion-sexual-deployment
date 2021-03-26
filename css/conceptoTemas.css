@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+header {
+    background-image: url(/image/fondo-secundaria.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+header .textos {
+    margin: 200px auto;
+    width: 400px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 20px;
+}
+
+header .textos h2{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+header .textos p {
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+main .concepto {
+    width: 100%;
+}
+
+main .concepto .titulo h2 {
+    text-align: center;
+    color: #4A235A;
+    font-size: 35px;
+    padding: 20px;
+    font-weight: 400;
+}
+
+main .concepto article {
+    width: 100%;
+    padding: 15px 20px;
+}
+
+main .concepto article p {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1f1f1f;
+    font-weight: 400;
+}
+
+main .concepto article p span {
+    color: #21618C;
+    font-weight: 600;
+}
+
+main .temas {
+    width: 100%;
+    background-color: #F4F6F7;
+}
+
+main .temas .titulo h2 {
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+    color: #4A235A;
+}
+
+main .temas .lista {
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+main .temas .lista ul {
+    list-style: square;
+}
+
+main .temas .lista ul li {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1f1f1f;
+    font-weight: 400;
+}
+
+main .puntos .titulo h2{
+    color: #4A235A;
+    text-align: center;
+    font-size: 35px;
+    padding: 20px;
+}
+
+main .puntos article {
+    width: 100%;
+    padding: 20px;
+}
+
+main .puntos article p{
+    color: #1f1f1f;
+    text-align: center;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+main .puntos article .lista {
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+main .puntos article .lista ul {
+    list-style: square;
+}
+
+main .puntos article .lista ul li {
+    font-size: 18px;
+    line-height: 27px;
+    color: #1f1f1f;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 430px) {
+    header {
+        height: 300px;
+    }
+    
+    header .textos {
+        margin: 50px auto;
+        width: 250px;
+    }
+    
+    header .textos h2{
+        font-size: 30px;
+    }
+    
+    header .textos p {
+        font-size: 18px;
+    }
+
+    main .temas .lista {
+        width: 100%;
+        padding: 40px;
+    }
+
+    main .temas .lista ul li {
+        margin-bottom: 20px;
+    }
+
+    main .puntos article .lista {
+        padding: 40px;
+        width: 100%;
+    }
+
+    main .puntos article .lista ul li {
+        margin-bottom: 20px;
+    }
+}

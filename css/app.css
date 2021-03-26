@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    font-size: 16px;
+}
+
+/* ----------- HEADER ------------ */
+header {
+    background-image: url(/image/background-image.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+/*----------------- MAIN ----------------- */
+
+.acerca-de .textos .titulo {
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Lobster';
+    margin-top: -90px;
+}
+
+.acerca-de .textos .sub-titulo {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    color: rgb(126, 126, 126);
+}
+
+section .acerca-de {
+    width: 400px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 30px auto 0 auto;
+    padding: 20px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.7);
+    margin-bottom: 20px;
+}
+
+section .acerca-de .titulo {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+section .acerca-de p {
+    line-height: 27px;
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        height: 500px;
+    }
+    .acerca-de .textos .titulo {
+        font-size: 80px;
+        margin-top: -60px;
+    }
+
+    .acerca-de .textos .sub-titulo {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 418px) {
+    header {
+        height: 350px;
+    }
+    .acerca-de .textos .titulo {
+        font-size: 65px;
+        margin-top: -45px;
+    }
+
+    .acerca-de .textos .sub-titulo {
+        font-size: 20px;
+    }
+
+    section .acerca-de {
+        width: 100%;
+    }
+
+    .sidebar {
+        left: -200px;
+        width: 200px;
+    }
+    
+    .sidebar .toggle-btn {
+        left: 220px;
+    }
+
+    .active {
+        left: 0;
+    }
+    
+    .sidebar ul li a {
+        padding: 10px 15px;
+    }
+}
+
+@media screen and (max-width: 280px)  {
+    header {
+        height: 300px;
+    }
+    .acerca-de .textos .titulo {
+        font-size: 40px;
+        margin-top: -28px;
+    }
+
+    .acerca-de .textos .sub-titulo {
+        font-size: 18px;
+    }
+}

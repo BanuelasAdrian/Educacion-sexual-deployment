@@ -1,0 +1,61 @@
+main .concepto {
+    width: 100%;
+}
+
+main .concepto .titulo h1 {
+    text-align: center;
+    font-weight: 400;
+    color: #4A235A;
+    font-size: 35px;
+    padding: 20px;
+}
+
+main .concepto .textos article {
+    width: 100%;
+}
+
+main .concepto .textos article p {
+    color: #1f1f1f;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    padding: 20px;
+    text-align: center;
+}
+
+main .concepto .textos article p span {
+    color: #21618C;
+    font-weight: 600;
+}
+
+main .enfermedades .titulo h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 35px;
+    color: #4A235A;
+}
+
+main .enfermedades .card {
+    transition: all 0.5s ease;
+    transform: scale(1);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+main .enfermedades .card:hover {
+    transition: all 0.5s ease;
+    transform: translateY(-20px);
+    transform: scale(1.05);
+    box-shadow: 8px 10px 20px;
+}
+
+@media screen and (max-width: 576px) {
+    main .concepto .titulo h1{
+        font-size: 30px;
+    }
+
+    main .enfermedades .titulo h2{
+        font-size: 30px;
+    }
+}

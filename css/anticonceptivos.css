@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+header {
+    background-image: url(/image/fondo-anticonceptivo.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+}
+
+header .textos {
+    margin-top: 240px;
+}
+
+header .textos h1 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 400;
+}
+
+header .textos h1 span {
+    font-weight: 300;
+    font-style: italic;
+    border-bottom: 2px solid #fff;
+}
+
+main, .concepto {
+    width: 100%;
+}
+
+main .concepto .titulo h2{
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 35px;
+    color: #4A235A;
+}
+
+main .concepto article p {
+    color: #1f1f1f;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+}
+
+main .concepto article p span{
+    color: #21618C;
+}
+
+main .metodos {
+    background-color: #F4F6F7;
+}
+
+main .metodos .titulo h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: 400;
+    font-size: 35px;
+    color: #4A235A;
+}
+
+main .metodos .card {
+    transition: all 0.5s ease;
+    transform: scale(1);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+main .metodos .card:hover {
+    transition: all 0.5s ease;
+    transform: translateY(-20px);
+    transform: scale(1.05);
+    box-shadow: 8px 10px 20px;
+}
+
+main .metodos {
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 768px) {
+
+    header .textos {
+        margin-top: 150px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    header {
+        height: 300px;
+    }
+
+    header .textos {
+        margin-top: 35px;
+    }
+
+    header .textos h1 {
+        font-size: 35px;
+    }
+    
+    main .concepto .titulo h2{
+        font-size: 30px;
+    }
+
+    main .metodos .titulo h2{
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,52 @@
+/* ------------Footer----------- */
+footer {
+    background: #222222;
+    width: 100%;
+}
+
+footer .social {
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social a {
+    padding: 10px;
+    display: inline-block;
+    margin: 0 20px;
+    width: 50px;
+    font-size: 22px;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    transition: all 0.5s ease;
+}
+
+footer .social a:hover {
+    transition: all 0.5s ease;
+    transform: scale(1.2);
+    text-decoration: none;
+}
+
+footer .social a.facebook {
+    background: #3b5998;
+}
+    
+footer .social a.instagram {
+        background: #E1306C;
+}
+
+footer .social a.youtube {
+    background: #cd201f;
+}
+
+footer .autor .derechos h2 {
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+}
+
+footer .autor .derechos h2 span {
+    font-weight: 400;
+}
